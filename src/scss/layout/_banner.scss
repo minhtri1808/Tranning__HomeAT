@@ -1,0 +1,33 @@
+.main__banner {
+    position: absolute;
+    top: 0;
+    z-index: -2;
+    &::before {
+        position: absolute;
+        content: '';
+        top: 0;
+        left: 0;
+        z-index: 1;
+        border-top: 0px solid transparent;
+        border-bottom: 393.37px solid transparent;
+        border-left: 224px solid map-get($mau, main);
+        @media (max-width: 1024px) {
+            border-top: 0px solid transparent;
+            border-bottom: 300.37px solid transparent;
+            border-left: 200px solid map-get($mau, main);
+        }
+        @media (max-width: 768.98px) {
+            display: none;
+        }
+    }
+    img {
+        width: 100%;
+        height: 1084px;
+        @media (max-width: 1024.98px) {
+            height: 1200px;
+        }
+        @media (max-width: 768.98px) {
+            height: 800px;
+        }
+    }
+}

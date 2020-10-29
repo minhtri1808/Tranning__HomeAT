@@ -1,0 +1,35 @@
+header
+	.container-fluid
+		.header__wrapper
+			.header__top
+				a.header__T-item Tuyển Dụng
+				a.header__T-item Liên Hệ
+				a.header__T-item Tiếng Việt
+				.header__search
+					input(type="text" placeholder="")
+					.search__icon
+						img(src="./assets/search/iconfinder-icon.svg", alt="")
+			.header__bottom
+				#menuRes MENU
+				a.header__B-item TRANG CHỦ
+				a.header__B-item GIỚI THIỆU
+				a.header__B-item CỔ ĐÔNG
+				a.header__B-item LĨNH VỰC ĐẦU TƯ
+				a.header__B-item DỰ ÁN
+				a.header__B-item TIN TỨC - SỰ KIỆN
+				a.header__B-item THƯ VIỆN
+			.header__logo
+				img(src="./assets/logo-banner/logo.png", alt="")
+			.header__social
+				-for(i=1;i<=4;i++)
+					.header__Sitem
+						img(src=`./assets/header__social/${i}.svg`, alt="Social")
+			.footer__Isocial
+				a.footer__social
+					img(src="./assets/social/Group 9.png", alt="")
+				a.footer__social
+					img(src="./assets/social/Path 8.png", alt="")
+				a.footer__social
+					img(src="./assets/social/Group 18.png", alt="")
+				a.footer__social
+					img(src="./assets/social/Group 92.png", alt="")

@@ -1,0 +1,41 @@
+section
+	.project__wrapper.container-fluid
+		.menu__wrapper
+			.name
+				.menu__name
+					h2 DỰ ÁN
+			.list
+				.menu__list
+					.menu__Litem
+						a(href="#") DU LỊCH
+					.menu__Litem
+						a(href="#").active BẤT ĐỘNG SẢN
+					.menu__Litem
+						a(href="#") HÀNG KHÔNG
+					.menu__Litem
+						a(href="#") TRUYỀN THÔNG
+					.menu__Litem
+						a(href="#") GIÁO DỤC
+					.menu__Litem
+						a(href="#") ĐẦU TƯ
+					.menu__Litem
+						a(href="#") CÔNG NGHỆ
+		.blog__wrapper.container-fluid
+			.row
+				.col-6.blog__big
+					img(src="./assets/project/GKyIAqr1.png", alt="blogBig")
+					p.blog__text KHU DU LỊCH NGHỈ DƯỠNG VÀ BIỆT THỰ SINH THÁI FLC CÙ LAO XANH, QUY NHƠN, BÌNH ĐỊNH
+				.col-6.blog__small
+					.blog__Bwrapper
+						-for(i=1;i<=4;i++)
+							.blog__item
+								img(src=`./assets/project/${i}.png`, alt="blog-images")
+								.blog__Itext
+									p Tổ Hợp Chung Cư Cao Cấp Và Văn Phòng Cho Thuê Bamboo Airways Tower
+		.container-fluid
+			.col-12.button
+						.button__wrapper
+							.button__item#prev
+								img(src="./assets/project/dots/pre.png", alt="")
+							.button__item#next
+								img(src="./assets/project/dots/next.png", alt="")

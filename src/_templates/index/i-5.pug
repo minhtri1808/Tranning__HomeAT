@@ -1,0 +1,10 @@
+section.container
+	.producer__wrapper
+		.swiper-container
+			.swiper-wrapper
+				-for(i=1;i<=10;i++)
+					.swiper-slide
+						.product__item
+								img(src=`./assets/producer/${i}.png`, alt="producer")
+		.swiper-button-prev
+		.swiper-button-next
